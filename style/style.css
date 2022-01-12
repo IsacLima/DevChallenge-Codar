@@ -618,8 +618,8 @@ a{
 	}
 
 	textarea:focus, input:focus {
-    box-shadow: 0 0 0 0;
-    outline: 0;
+    		box-shadow: 0 0 0 0;
+   		 outline: 0;
 	}
 
 	footer{
@@ -692,7 +692,7 @@ a{
 	}
 
 	.conteudo-secao p{
-			font-size: 1.25rem;
+		font-size: 1.25rem;
 		font-weight: normal;
 		margin-bottom: .5rem;
 	}

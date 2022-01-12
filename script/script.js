@@ -11,7 +11,7 @@ function topoDaSecao(event){
 	event.preventDefault();
 	var topo = document.getElementById(event.currentTarget.hash).offsetTop;
 	if(event.currentTarget.hash != "#rodape"){
-		topo = topo;
+		topo = topo - 100;
 	}
 	scrollParaSecao(topo);
 }

@@ -19,3 +19,4 @@ function topoDaSecao(event){
 menuItens.forEach(item =>{
 	item.addEventListener('click', topoDaSecao)
 })
+
